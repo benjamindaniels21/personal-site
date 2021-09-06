@@ -1,0 +1,39 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+nav {
+  background-color: #fde8cd;
+}
+
+.welcome {
+    color: white;
+    background-color: #00917C;
+    height: 100vh;
+    text-align: center;
+}
+
+.welcome h1{
+    font-family: 'Playfair Display', serif;
+    /* font-weight: 400; */
+    font-size: 8rem;
+    padding-top: 30vh;
+}
+
+.welcome h2{
+    font-family: 'Playfair Display', serif;
+    font-weight: 400;
+    font-style: italic;
+    padding-top: 3rem;;
+    font-size: 3rem;
+}
+
+
+
+
+
+/*
+Comments: 
+Fix font sizes at smaller devices 
+*/
