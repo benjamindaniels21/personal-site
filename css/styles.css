@@ -33,6 +33,18 @@ nav {
   text-decoration: underline;
 }
 
+.nav-link{
+    font-family: "Playfair Display", serif;
+}
+
+@media all and (max-width: 900px){
+    .welcome h1{
+        font-size: 3rem;
+    }
+    .welcome h2 {
+        font-size: 2rem;
+    }
+}
 /*
 Comments: 
 Fix font sizes at smaller devices 
