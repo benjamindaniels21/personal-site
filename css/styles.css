@@ -16,6 +16,7 @@ nav {
   background-color: #00917c;
   height: 90vh;
   text-align: center;
+  position: relative;
 }
 
 .welcome h1 {
@@ -31,6 +32,26 @@ nav {
   font-style: italic;
   padding-top: 3rem;
   font-size: 3rem;
+}
+
+.waves {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    overflow: hidden;
+    line-height: 0;
+}
+
+.waves svg {
+    position: relative;
+    display: block;
+    width: calc(128% + 1.3px);
+    height: 66px;
+}
+
+.waves .shape-fill {
+    fill: #00917c;
 }
 
 .nav-link{
@@ -65,12 +86,14 @@ nav {
 }
 
 
-
 .tech{
   background-color: #E8E8E8;
   padding-top: 4rem;
-  height: 500px;
   text-align: center;
+  position: relative;
+}
+.tech h1{
+  font-size: 4rem;
 }
 
 .tech img{
