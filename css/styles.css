@@ -72,6 +72,8 @@ nav {
     transition: transform 0.3s ease;
 }
 
+
+
 .nav-link:hover::after{
     transform: scale(1, 1);
 }
@@ -80,9 +82,14 @@ nav {
     font-family: "Playfair Display", serif;
 }
 
+.welcome:hover .arrow{
+  transform: translateY(20%)
+}
+
 .arrow{
   margin-top: 2rem;
   font-size: 5rem;
+  transition: transform 1s ease-in-out;
 }
 
 
