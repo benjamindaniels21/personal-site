@@ -3,6 +3,10 @@
   padding: 0;
 }
 
+h1{
+  font-family: "Playfair Display", serif;
+}
+
 nav {
   background-color: #fde8cd;
 }
@@ -10,7 +14,7 @@ nav {
 .welcome {
   color: white;
   background-color: #00917c;
-  height: 100vh;
+  height: 90vh;
   text-align: center;
 }
 
@@ -51,11 +55,26 @@ nav {
     transform: scale(1, 1);
 }
 
-
-
-
 .nav-link{
     font-family: "Playfair Display", serif;
+}
+
+.arrow{
+  margin-top: 2rem;
+  font-size: 5rem;
+}
+
+
+
+.tech{
+  background-color: #E8E8E8;
+  padding-top: 4rem;
+  height: 500px;
+  text-align: center;
+}
+
+.tech img{
+  margin-top: 4rem;
 }
 
 @media all and (max-width: 900px){
