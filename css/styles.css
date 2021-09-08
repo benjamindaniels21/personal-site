@@ -1,3 +1,9 @@
+:root {
+  --header-bg-color:#fde8cd;
+  --welcome-bg-color: #00917c; 
+  --tech-bg-color: #E9FEF8;
+}
+
 * {
   margin: 0;
   padding: 0;
@@ -8,12 +14,12 @@ h1{
 }
 
 nav {
-  background-color: #fde8cd;
+  background-color: var(--welcome-bg-color);
 }
 
 .welcome {
   color: white;
-  background-color: #00917c;
+  background-color: var(--welcome-bg-color);
   height: 90vh;
   text-align: center;
   position: relative;
@@ -51,7 +57,7 @@ nav {
 }
 
 .waves .shape-fill {
-    fill: #00917c;
+    fill: var(--welcome-bg-color);
 }
 
 .nav-link{
@@ -66,7 +72,7 @@ nav {
     height: 0.175rem;
     left: 0;
     bottom: 0;
-    background: #00917c;
+    background: white;
 
     transform: scale(0,1);
     transition: transform 0.3s ease;
@@ -94,7 +100,7 @@ nav {
 
 
 .tech{
-  background-color: #E8E8E8;
+  background-color: var(--tech-bg-color);
   padding-top: 4rem;
   text-align: center;
   position: relative;
@@ -107,6 +113,24 @@ nav {
   margin-top: 4rem;
 }
 
+.tech-icons{
+  font-size: 5rem;
+  text-align: center;
+}
+
+.tech-icons i{
+  text-align: center;
+  margin-right: 4rem;
+}
+
+.about h1{
+  text-align: center;
+}
+
+
+
+
+
 @media all and (max-width: 900px){
     .welcome h1{
         font-size: 3rem;
@@ -118,6 +142,13 @@ nav {
         width: 15%;
     }
 }
+
+
+
+
+
+
+
 /*
 Comments: 
 Fix font sizes at smaller devices 
