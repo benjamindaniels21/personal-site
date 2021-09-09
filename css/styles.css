@@ -125,6 +125,10 @@ nav {
   margin-right: 4rem;
 }
 
+.fa-html5:hover {
+  color: red;
+}
+
 .about h1{
   text-align: center;
 }
