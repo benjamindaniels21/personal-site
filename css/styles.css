@@ -101,7 +101,7 @@ nav {
 
 .tech{
   background-color: var(--tech-bg-color);
-  padding-top: 4rem;
+  padding-top: 10rem;
   text-align: center;
   position: relative;
 }
@@ -114,6 +114,8 @@ nav {
 }
 
 .tech-icons{
+  margin-top: 5rem;
+  padding-bottom: 3rem;
   font-size: 5rem;
   text-align: center;
 }
