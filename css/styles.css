@@ -11,7 +11,7 @@
   scroll-behavior: smooth;
 }
 
-h1 {
+h1, p {
   font-family: "Playfair Display", serif;
 }
 
@@ -382,6 +382,10 @@ nav {
     font-size: 3rem;
   }
 
+  .tech h1 {
+  font-size: 3rem;
+}
+
   .welcome h2 {
     font-size: 2rem;
   }
@@ -394,9 +398,13 @@ contact i {
   padding: 20px;
 }
 
-/*
-Comments: 
-Fix font sizes at smaller devices 
-*/
+.github{
+  color:#000;
+  font-size: 2rem;
+}
 
-/*# sourceMappingURL=styles.css.map */
+.github:hover{
+  color: var(--primary-color);
+}
+
+
