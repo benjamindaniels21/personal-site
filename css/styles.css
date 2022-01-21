@@ -1,8 +1,8 @@
 :root {
   --primary-color: #00917c;
-  --secondary-color: #E9FEF8;
+  --secondary-color: #e9fef8;
   --tertiary-color: #fde8cd;
-  --fifth-color: #D5D0F6;
+  --fifth-color: #d5d0f6;
 }
 
 * {
@@ -11,7 +11,8 @@
   scroll-behavior: smooth;
 }
 
-h1, p {
+h1,
+p {
   font-family: "Playfair Display", serif;
 }
 
@@ -88,7 +89,8 @@ nav {
 }
 
 @keyframes wavy {
-  0%, 100% {
+  0%,
+  100% {
     transform: scaleX(1.1);
   }
   25% {
@@ -104,7 +106,6 @@ nav {
 .nav-link {
   position: relative;
   font-family: "Playfair Display", serif;
-    
 }
 
 .nav-link::after {
@@ -162,12 +163,13 @@ nav {
 }
 
 .fa-git-alt:hover {
-  color: #F05033;
+  color: #f05033;
   animation: boop 0.6s forwards;
 }
 
 @keyframes boop {
-  0%, 100% {
+  0%,
+  100% {
     transform: rotate(0deg);
   }
   25% {
@@ -196,12 +198,12 @@ nav {
 }
 
 .fa-sass:hover {
-  color: #CD6799;
+  color: #cd6799;
   animation: boop 0.6s forwards;
 }
 
 .fa-node:hover {
-  color: #8FC53F;
+  color: #8fc53f;
   animation: boop 0.6s forwards;
 }
 
@@ -364,7 +366,7 @@ nav {
 
 .contact a {
   text-decoration: none;
-  color: inherit;
+  color: #fff;
 }
 
 .contact i:hover {
@@ -383,8 +385,8 @@ nav {
   }
 
   .tech h1 {
-  font-size: 3rem;
-}
+    font-size: 3rem;
+  }
 
   .welcome h2 {
     font-size: 2rem;
@@ -398,13 +400,11 @@ contact i {
   padding: 20px;
 }
 
-.github{
-  color:#000;
+.github {
+  color: #000;
   font-size: 2rem;
 }
 
-.github:hover{
+.github:hover {
   color: var(--primary-color);
 }
-
-
